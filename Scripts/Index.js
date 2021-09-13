@@ -79,6 +79,7 @@ form.addEventListener('submit', function(e) {
     checkLength(password, 6, 25);
     checkEmail(email);
     checkPasswordsMatch(password, confirmPassword);
+    checkLength(confirmPassword, 6, 25);
   }
 
 });
